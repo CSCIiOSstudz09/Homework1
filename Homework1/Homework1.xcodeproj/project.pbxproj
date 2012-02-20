@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30C7205714F1D0E700C2D7DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30C7205614F1D0E700C2D7DE /* UIKit.framework */; };
+		30C7205914F1D0E700C2D7DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30C7205814F1D0E700C2D7DE /* Foundation.framework */; };
+		30C7205B14F1D0E700C2D7DE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30C7205A14F1D0E700C2D7DE /* CoreGraphics.framework */; };
+		30C7206114F1D0E700C2D7DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30C7205F14F1D0E700C2D7DE /* InfoPlist.strings */; };
+		30C7206314F1D0E700C2D7DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C7206214F1D0E700C2D7DE /* main.m */; };
+		30C7206714F1D0E700C2D7DE /* Lec2AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C7206614F1D0E700C2D7DE /* Lec2AppDelegate.m */; };
+		30C7206A14F1D0E700C2D7DE /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30C7206814F1D0E700C2D7DE /* MainStoryboard.storyboard */; };
+		30C7206D14F1D0E700C2D7DE /* Lec2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C7206C14F1D0E700C2D7DE /* Lec2ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		30C7205214F1D0E700C2D7DE /* Homework1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homework1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30C7205614F1D0E700C2D7DE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		30C7205814F1D0E700C2D7DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		30C7205A14F1D0E700C2D7DE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		30C7205E14F1D0E700C2D7DE /* Homework1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Homework1-Info.plist"; sourceTree = "<group>"; };
+		30C7206014F1D0E700C2D7DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		30C7206214F1D0E700C2D7DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		30C7206414F1D0E700C2D7DE /* Homework1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Homework1-Prefix.pch"; sourceTree = "<group>"; };
+		30C7206514F1D0E700C2D7DE /* Lec2AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lec2AppDelegate.h; sourceTree = "<group>"; };
+		30C7206614F1D0E700C2D7DE /* Lec2AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lec2AppDelegate.m; sourceTree = "<group>"; };
+		30C7206914F1D0E700C2D7DE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		30C7206B14F1D0E700C2D7DE /* Lec2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lec2ViewController.h; sourceTree = "<group>"; };
+		30C7206C14F1D0E700C2D7DE /* Lec2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lec2ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30C7204F14F1D0E700C2D7DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30C7205714F1D0E700C2D7DE /* UIKit.framework in Frameworks */,
+				30C7205914F1D0E700C2D7DE /* Foundation.framework in Frameworks */,
+				30C7205B14F1D0E700C2D7DE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30C7204714F1D0E700C2D7DE = {
+			isa = PBXGroup;
+			children = (
+				30C7205C14F1D0E700C2D7DE /* Homework1 */,
+				30C7205514F1D0E700C2D7DE /* Frameworks */,
+				30C7205314F1D0E700C2D7DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30C7205314F1D0E700C2D7DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30C7205214F1D0E700C2D7DE /* Homework1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30C7205514F1D0E700C2D7DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30C7205614F1D0E700C2D7DE /* UIKit.framework */,
+				30C7205814F1D0E700C2D7DE /* Foundation.framework */,
+				30C7205A14F1D0E700C2D7DE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		30C7205C14F1D0E700C2D7DE /* Homework1 */ = {
+			isa = PBXGroup;
+			children = (
+				30C7206514F1D0E700C2D7DE /* Lec2AppDelegate.h */,
+				30C7206614F1D0E700C2D7DE /* Lec2AppDelegate.m */,
+				30C7206814F1D0E700C2D7DE /* MainStoryboard.storyboard */,
+				30C7206B14F1D0E700C2D7DE /* Lec2ViewController.h */,
+				30C7206C14F1D0E700C2D7DE /* Lec2ViewController.m */,
+				30C7205D14F1D0E700C2D7DE /* Supporting Files */,
+			);
+			path = Homework1;
+			sourceTree = "<group>";
+		};
+		30C7205D14F1D0E700C2D7DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30C7205E14F1D0E700C2D7DE /* Homework1-Info.plist */,
+				30C7205F14F1D0E700C2D7DE /* InfoPlist.strings */,
+				30C7206214F1D0E700C2D7DE /* main.m */,
+				30C7206414F1D0E700C2D7DE /* Homework1-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30C7205114F1D0E700C2D7DE /* Homework1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30C7207014F1D0E700C2D7DE /* Build configuration list for PBXNativeTarget "Homework1" */;
+			buildPhases = (
+				30C7204E14F1D0E700C2D7DE /* Sources */,
+				30C7204F14F1D0E700C2D7DE /* Frameworks */,
+				30C7205014F1D0E700C2D7DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Homework1;
+			productName = Homework1;
+			productReference = 30C7205214F1D0E700C2D7DE /* Homework1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30C7204914F1D0E700C2D7DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 30C7204C14F1D0E700C2D7DE /* Build configuration list for PBXProject "Homework1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 30C7204714F1D0E700C2D7DE;
+			productRefGroup = 30C7205314F1D0E700C2D7DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30C7205114F1D0E700C2D7DE /* Homework1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30C7205014F1D0E700C2D7DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30C7206114F1D0E700C2D7DE /* InfoPlist.strings in Resources */,
+				30C7206A14F1D0E700C2D7DE /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30C7204E14F1D0E700C2D7DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30C7206314F1D0E700C2D7DE /* main.m in Sources */,
+				30C7206714F1D0E700C2D7DE /* Lec2AppDelegate.m in Sources */,
+				30C7206D14F1D0E700C2D7DE /* Lec2ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		30C7205F14F1D0E700C2D7DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30C7206014F1D0E700C2D7DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		30C7206814F1D0E700C2D7DE /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30C7206914F1D0E700C2D7DE /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30C7206E14F1D0E700C2D7DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		30C7206F14F1D0E700C2D7DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30C7207114F1D0E700C2D7DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Homework1/Homework1-Prefix.pch";
+				INFOPLIST_FILE = "Homework1/Homework1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		30C7207214F1D0E700C2D7DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Homework1/Homework1-Prefix.pch";
+				INFOPLIST_FILE = "Homework1/Homework1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30C7204C14F1D0E700C2D7DE /* Build configuration list for PBXProject "Homework1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30C7206E14F1D0E700C2D7DE /* Debug */,
+				30C7206F14F1D0E700C2D7DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30C7207014F1D0E700C2D7DE /* Build configuration list for PBXNativeTarget "Homework1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30C7207114F1D0E700C2D7DE /* Debug */,
+				30C7207214F1D0E700C2D7DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30C7204914F1D0E700C2D7DE /* Project object */;
+}
