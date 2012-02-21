@@ -1,14 +1,21 @@
 //
-//  Lec2ViewController.m
+//  HW1ViewController.m
 //  Homework1
 //
-//  Created by Joe Studniarz on 2/19/12.
+//  Created by Joe Studniarz on 2/20/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import "Lec2ViewController.h"
+#import "HW1ViewController.h"
 
-@implementation Lec2ViewController
+@implementation HW1ViewController
+@synthesize View1Out;
+@synthesize View2Out;
+
+- (IBAction)PressButton:(id)sender
+{
+   // NSLog(@"Button Pushed");
+}
 
 - (void)didReceiveMemoryWarning
 {
@@ -26,6 +33,8 @@
 
 - (void)viewDidUnload
 {
+    [self setView2Out:nil];
+    [self setView1Out:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;

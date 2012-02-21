@@ -1,14 +1,14 @@
 //
-//  Lec2AppDelegate.m
+//  HW1AppDelegate.m
 //  Homework1
 //
-//  Created by Joe Studniarz on 2/19/12.
+//  Created by Joe Studniarz on 2/20/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import "Lec2AppDelegate.h"
+#import "HW1AppDelegate.h"
 
-@implementation Lec2AppDelegate
+@implementation HW1AppDelegate
 
 @synthesize window = _window;
 
