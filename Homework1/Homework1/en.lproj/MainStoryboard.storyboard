@@ -18,7 +18,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                             </view>
-                            <view contentMode="scaleToFill" id="FxB-Ez-j8e">
+                            <view contentMode="scaleToFill" id="FxB-Ez-j8e" customClass="HW1UIViewSubclass">
                                 <rect key="frame" x="0.0" y="59" width="320" height="105"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -49,16 +49,6 @@
             </objects>
         </scene>
     </scenes>
-    <classes>
-        <class className="HW1ViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/HW1ViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="PressButton:"/>
-                <relationship kind="outlet" name="View1Out" candidateClass="UIView"/>
-                <relationship kind="outlet" name="View2Out" candidateClass="UIView"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

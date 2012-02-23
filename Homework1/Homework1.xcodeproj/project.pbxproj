@@ -15,6 +15,7 @@
 		30D35B0014F32589003065CB /* HW1AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D35AFF14F32589003065CB /* HW1AppDelegate.m */; };
 		30D35B0314F32589003065CB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30D35B0114F32589003065CB /* MainStoryboard.storyboard */; };
 		30D35B0614F32589003065CB /* HW1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D35B0514F32589003065CB /* HW1ViewController.m */; };
+		C382425C14F6AB7500C9656B /* HW1UIViewSubclass.m in Sources */ = {isa = PBXBuildFile; fileRef = C382425B14F6AB7500C9656B /* HW1UIViewSubclass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		30D35B0214F32589003065CB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		30D35B0414F32589003065CB /* HW1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HW1ViewController.h; sourceTree = "<group>"; };
 		30D35B0514F32589003065CB /* HW1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HW1ViewController.m; sourceTree = "<group>"; };
+		C382425A14F6AB7500C9656B /* HW1UIViewSubclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HW1UIViewSubclass.h; sourceTree = "<group>"; };
+		C382425B14F6AB7500C9656B /* HW1UIViewSubclass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HW1UIViewSubclass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 				30D35B0114F32589003065CB /* MainStoryboard.storyboard */,
 				30D35B0414F32589003065CB /* HW1ViewController.h */,
 				30D35B0514F32589003065CB /* HW1ViewController.m */,
+				C382425A14F6AB7500C9656B /* HW1UIViewSubclass.h */,
+				C382425B14F6AB7500C9656B /* HW1UIViewSubclass.m */,
 				30D35AF614F32589003065CB /* Supporting Files */,
 			);
 			path = Homework1;
@@ -163,6 +168,7 @@
 				30D35AFC14F32589003065CB /* main.m in Sources */,
 				30D35B0014F32589003065CB /* HW1AppDelegate.m in Sources */,
 				30D35B0614F32589003065CB /* HW1ViewController.m in Sources */,
+				C382425C14F6AB7500C9656B /* HW1UIViewSubclass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +280,7 @@
 				30D35B0B14F32589003065CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

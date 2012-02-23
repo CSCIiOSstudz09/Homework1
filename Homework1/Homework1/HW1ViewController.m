@@ -14,7 +14,7 @@
 
 - (IBAction)PressButton:(id)sender
 {
-   // NSLog(@"Button Pushed");
+   [View1Out addLabel];
 }
 
 - (void)didReceiveMemoryWarning

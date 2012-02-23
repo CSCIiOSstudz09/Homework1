@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HW1UIViewSubclass.h"
 
 @interface HW1ViewController : UIViewController
 
-@property (weak, nonatomic) IBOutlet UIView *View1Out;
+@property (weak, nonatomic) IBOutlet HW1UIViewSubclass *View1Out;
 
 @property (weak, nonatomic) IBOutlet UIView *View2Out;
 
