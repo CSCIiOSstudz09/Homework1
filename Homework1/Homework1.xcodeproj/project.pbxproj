@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30242309154B362500134B74 /* TestPushFile.c in Sources */ = {isa = PBXBuildFile; fileRef = 30242308154B362500134B74 /* TestPushFile.c */; };
 		30D35AF014F32589003065CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30D35AEF14F32589003065CB /* UIKit.framework */; };
 		30D35AF214F32589003065CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30D35AF114F32589003065CB /* Foundation.framework */; };
 		30D35AF414F32589003065CB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30D35AF314F32589003065CB /* CoreGraphics.framework */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		30242308154B362500134B74 /* TestPushFile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TestPushFile.c; sourceTree = "<group>"; };
 		30D35AEB14F32589003065CB /* Homework1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homework1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30D35AEF14F32589003065CB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		30D35AF114F32589003065CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -81,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				30D35AFE14F32589003065CB /* HW1AppDelegate.h */,
+				30242308154B362500134B74 /* TestPushFile.c */,
 				30D35AFF14F32589003065CB /* HW1AppDelegate.m */,
 				30D35B0114F32589003065CB /* MainStoryboard.storyboard */,
 				30D35B0414F32589003065CB /* HW1ViewController.h */,
@@ -169,6 +172,7 @@
 				30D35B0014F32589003065CB /* HW1AppDelegate.m in Sources */,
 				30D35B0614F32589003065CB /* HW1ViewController.m in Sources */,
 				C382425C14F6AB7500C9656B /* HW1UIViewSubclass.m in Sources */,
+				30242309154B362500134B74 /* TestPushFile.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
